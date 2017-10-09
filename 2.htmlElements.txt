@@ -1,0 +1,42 @@
+HTML- Elements and Attributes:
+---------------
+
+syntax: <tagname> content here  </tagname>
+
+html element is every thing from start tag to the end tag.
+
+<h1> heading
+<p> paragraph
+<br> break -act as new line
+
+html elements can be nested (elements can contain other elements)
+All html document consist of nested html elemments.
+
+** donot forget end tag..but some browser supports writing without end tags, but varies from browser to browser.
+** even the browser display the html document ,varies from browser to browser.
+** we can have emty elements like <br/> <p/>
+etc but it should be "closed" in the opening tag itself.
+** its mandatory to close all html tags due to design reasons.
+
+**tags are not case sensitive.
+
+Attributes
+----------
+- An element can have attributes, to provide additional information.
+-it is mandatoty that attributes should be written in the "start tag" in the syntax;
+Attribute_name="value"
+
+eg: <a> -anchor tag
+<a href="https://www/facebook.com">facebook</a>
+here, "href" is an attribute  that specifies a link address value "https://www/facebook.com" to the anchor element "facebook"
+
+eg: <img> - image tag
+<img src="img_girl.png"></img>
+src is an attribute that can map the value "img_girl.png"  to image element.
+
+ather attributes of <img> tag
+alt-specifies alternate name of image.
+width, height specifies width and height in pixel.
+
+
+
