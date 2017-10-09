@@ -1,0 +1,42 @@
+html<p> paragraphs
+------------------
+defines paragraph
+<p> paragara.....</p>
+<p> paraga,,,,,,,</p>
+-browser automatically add some white spaces before and after paragraph
+ eg; 1.example.htm
+ //////////////////////
+ <p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser
+ignores it.
+</p>
+
+<p>
+This paragraph
+contains         a lot of spaces
+in the source         code,
+but the        browser
+ignores it.
+</p> 
+//////////////////////////
+both will be displayed same.
+
+<pre> tag
+---------
+defines pre formatted tags:
+uses
+font- courier, fixed width, preserves spaces as in the doc.
+
+
+summary
+-------
+
+Tag 	Description
+<p> 	Defines a paragraph
+<br> 	Inserts a single line break
+<pre> 	Defines pre-formatted text
+
+
