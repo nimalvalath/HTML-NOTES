@@ -1,0 +1,80 @@
+iframe element
+--------------
+
+An HTML iframe is defined with the <iframe> tag:
+<iframe src="URL"></iframe> 
+
+The src attribute specifies the URL (web address) of the inline frame page.
+
+ Set Height and Width
+ --------------------
+
+  <iframe src="demo_iframe.htm" height="200" width="300"></iframe> 
+
+  Remove border
+  -------------
+  iframe have a border by default
+
+   <iframe src="demo_iframe.htm" style="border:none;"></iframe> 
+
+   change color
+   ------------
+    <iframe src="demo_iframe.htm" style="border:2px solid grey;"></iframe> 
+
+    iframe as a target frame
+    ------------------------
+
+    An iframe can be used as the target frame for a link.
+
+The target attribute of the link must refer to the name attribute of the iframe:
+
+ <iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p> 
+
+Head and Meta
+-------------
+
+
+<head> tag contain
+<style>
+<title>
+<link rel="stylesheet" href="mystyle.css">
+
+Different meta
+--------------
+<meta charset="UTF-8">
+
+<meta name="description" content="Free Web tutorials">
+
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+
+<meta name="author" 
+content="John Doe">
+
+Meta viewport 
+-------------
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling.
+
+
+<script>
+--------
+
+The <script> element is used to define client-side JavaScripts.
+
+This JavaScript writes "Hello JavaScript!" into an HTML element with id="demo":
+
+ <script>
+function myFunction {
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+}
+</script> 
+
+base
+----
+The <base> element specifies the base URL and base target for all relative URLs in a page:
+Example
+<base href="https://www.w3schools.com/images/" target="_blank">
+

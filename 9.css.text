@@ -1,0 +1,64 @@
+css 
+---
+cascading style sheets
+- describe how html elements are to be displayed on screen.
+- saves  a lot of work. one css document can control many web pages.
+
+css in HTML
+-----------
+css can be added in 3 ways
+1. inline- using style attribute in html tags 
+eg <h1 style="background-color=#ffffff";">Hello</h1>
+
+- give unique style to the single element.
+
+2. internal - by using <style. element in the <head> section element.
+- defines unique style for a single html page.
+
+eg;
+<style>
+body {background-color: powderblue;}
+h1 {color: blue;}
+p {color: red;}
+</style>
+
+
+3. external- by using css file (external file).
+- define style for many html  pages.
+
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+summary
+-------
+
+-  Use the HTML style attribute for inline styling
+ - Use the HTML <style> element to define internal CSS
+ - Use the HTML <link> element to refer to an external CSS file
+ - Use the HTML <head> element to store <style> and <link> elements
+ - Use the CSS color property for text colors
+ - Use the CSS font-family property for text fonts
+ - Use the CSS font-size property for text sizes
+ - Use the CSS border property for borders [br_px br_type br_color] 
+ - Use the CSS padding property for space inside the border in [px]
+ - Use the CSS margin property for space outside the border in [px]
+
+//id attribute and class attribute of html tags///
+
+-they have a usage with the css file or styles
+
+1.
+<p id="p01">I am different</p>
+#p01 {
+    color: blue;
+}
+
+-the id of an element should be unique within a page, so the id selector is used to select one unique element!
+
+2. 
+<p class="error">I am different</p>
+
+p.error {
+    color: red;
+}

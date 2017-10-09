@@ -1,0 +1,153 @@
+HTML table
+----------
+<table> element
+<tr> table row
+
+<th> table header -bold and centered.
+
+<td> table data
+
+ <table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table> 
+
+-table can contain -text, images, lists, other tables etc
+
+css for table
+-------------
+for double border ( all cells)
+------------------------------
+
+table, th, td {
+    border: 1px solid black;
+}
+for border spacing
+------------------
+table{
+	border-spacing:5px;
+}
+if table have collapsed border then there is no effect
+
+collapsed border(single border)
+-------------------------------
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+cell padding
+------------
+
+only for tr and td
+th,td{
+padding:15px;
+}
+
+alignment
+---------
+th{
+text-align:left;
+}
+ 
+column span
+-----------
+
+<th colspan="2">Telephone</th>
+
+row span
+--------
+<th rowspan="2">Telephone<th>
+
+
+table caption
+-------------
+<caption> monthly saving</caption>
+
+
+css
+----
+refer by id:
+
+table#t01 {
+    width: 100%;
+    background-color: #f1f1c1;
+}
+
+special styling in css
+----------------------
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+
+lists:
+------
+1-ordered list
+
+ <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> 
+
+The type attribute of the <ol> tag, defines the type of the list item marker:
+Type 	Description
+type="1" 	The list items will be numbered with numbers (default)
+type="A" 	The list items will be numbered with uppercase letters
+type="a" 	The list items will be numbered with lowercase letters
+type="I" 	The list items will be numbered with uppercase roman numbers
+type="i" 	The list items will be numbered with lowercase roman numbers
+
+usage:
+ <ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> 
+
+2-unordered list
+
+ <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul> 
+
+> marker style by default id round.
+
+Value 	Description
+disc 	Sets the list item marker to a bullet (default)
+circle 	Sets the list item marker to a circle
+square 	Sets the list item marker to a square
+none 	The list items will not be marked
+
+usage syntax:
+<ul style="list-style-type:disc">
+<li>....
+<li>....
+<li>....
+</ul>
+
+
+
