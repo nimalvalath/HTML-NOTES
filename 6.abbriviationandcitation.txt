@@ -1,0 +1,53 @@
+Quotation tag
+-------------
+two types
+1. <q> shot quotations
+eg: WWF's goal is to: <q>Build a future where people live in harmony with nature.</q>
+
+2. <blockquote> block quotation
+eg
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+
+blockquote can take attribute cite
+
+<abbr> abbreviation
+-------------------
+ <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p> 
+ WHO will be abbreviated, while moving cursor it shows.
+
+ <address> address
+ -----------------
+ for  defining contact information of owner or admin etc
+ usually displayed in italic, can expect line brreak after and before address tag.
+
+  <address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address> 
+
+<cite> cite
+-----------
+ defines title of work
+ Browsers usually display <cite> elements in italic.
+
+<bdo> bi-directional override
+-----------------------------
+attribute - dir:"rtl"or 'ltr'
+
+summary
+-------
+<abbr> 	Defines an abbreviation or acronym
+<address> 	Defines contact information for the author/owner of a document
+<bdo> 	Defines the text direction
+<blockquote> 	Defines a section that is quoted from another source
+<cite> 	Defines the title of a work
+<q> 	Defines a short inline quotation
