@@ -1,0 +1,24 @@
+style Attributes for color
+--------------------------
+
+1. background color-style="background-color:color_value;"
+2.text color style="color:color_value;"
+3. border color-style ="border: width px frame_type color_value;"
+
+color values
+------------
+represented in
+1.RGB(red,green,blue) 0-255
+2. HEX #RRGGBB each rr has 00-ff posibilities(~ 0-266 in decimal) 
+
+3. HSL(hue, saturation, lightness) 
+hue value range 0-360, where 1-red, 120- green, 240 -blue.
+saturation-%- 0% -shade of grey, 100% -full of color.
+lightness -%- 0% -black,100% - is white.
+
+4. RGBA(red,green,blue,alpha)
+alpha specifies opacity of color.
+5. hsla(hue, saturation, lightness, alpha) similar to above
+ 
+
+see example.htm

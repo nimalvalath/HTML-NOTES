@@ -1,0 +1,14 @@
+HTML comments
+-------------
+<!--write your comments-->
+comments are not displayed in the browser
+
+
+conditional comments
+--------------------
+<!--[if IE 9]>
+...some html here
+<![endif]-->
+they are only supported in IE
+
+but there is something called conditional css
