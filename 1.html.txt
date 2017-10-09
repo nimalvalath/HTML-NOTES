@@ -1,0 +1,46 @@
+HTML 5
+-------
+-hyper text markup language
+-describe strucuture of web page using markups. These makups area elements in the html document and elements are represented 
+by tags. tags labels poieces of elements eg -headings,paragraph,table etc.
+Browser
+--------
+a software that displays html document or render the html codes without tags.
+
+eg: chrome, safari, firefox's mozilla
+
+Sample HTML Doc
+---------------
+
+<!DOCTYPE html> - declaration defines the document is of type html version 5.
+<html> - root element of the HTML page.
+<head>- element containing META information about the document
+<title>title</title> - element that specifies the title of the document.
+</head>  
+<body> - visible page content
+<h1> heading1</h1> - element of heading
+<p> paragraph </paragraph> element of paragraph
+</body>
+</html>
+
+HTML TAG sysntax;
+-----------------
+<tagname> ...content..</tagname>
+
+each tag perform a specific function. elach tag appears as a pair. opening tag<tag> and closing tag</tag>
+
+Editors for HTML
+----------------
+ex: notepad,textedit etc.
+
+just save the file as FileName.html or filename.htm.
+htm format is preffered for saving html because it says the browser that the document is encoded in unicode -'utf-8'.
+
+
+
+
+
+
+</body>
+
+<!
